@@ -1,0 +1,10 @@
+{
+    "query": {
+        "range": {
+            "@timestamp": {
+                "gte": "now-1d",
+                "lt": "now"
+            }
+        }
+    }
+}
