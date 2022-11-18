@@ -55,7 +55,7 @@ class Elastic
             var context_message = GetValueString(jobjectSource, "context_message", alertCount);
             var timestamp = GetValueDate(jobjectSource, "@timestamp", alertCount);
 
-            if (rule_id == string.Empty || rule_name == string.Empty || alert_id == string.Empty || context_message == string.Empty || timestamp == DateTime.MinValue)
+            if (rule_id == string.Empty || rule_name == string.Empty || alert_id == string.Empty || timestamp == DateTime.MinValue)
             {
                 Logger.Error($"Couldn't parse alert {alertCount + 1}: '{alert}'");
                 continue;
