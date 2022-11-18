@@ -1,0 +1,1 @@
+[![Build](https://github.com/perjahn/elasticalerter/actions/workflows/build.yml/badge.svg)](https://github.com/perjahn/elasticalerter/actions/workflows/build.yml)
